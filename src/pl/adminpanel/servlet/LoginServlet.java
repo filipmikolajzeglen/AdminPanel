@@ -22,7 +22,8 @@ public class LoginServlet extends HttpServlet {
         }
         response.sendRedirect("admin.jsp");
     }
-
+    // dupa dupa
+    // pupa pupa
     private boolean validate(String username, String password) {
         return USERNAME.equals(username) && PASS.equals(password);
     }
